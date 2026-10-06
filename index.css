@@ -1,0 +1,55 @@
+/* tag name selector */
+b {
+    color: blue;
+    background-color: aqua;
+}
+/* id selector */
+#paragraph {
+    color: green;
+}
+/* class selector */
+.Bold {
+    font-size: 100px;
+}
+.container{
+    background-color: bisque;
+    width: fit-content;
+    /* margin: top-bottom left-right; */
+    margin: 20px 5px;
+    /* shorthand property */
+    /* padding: top right bottom left; */
+    padding: 10px 20px 15px 20px;
+    /* border-radius: all-corner; */
+    /* border-radius: top-left/bottom-right top-right/bottom-left; */
+    /* border-radius: top-left top-right bottom-right bottom-left; */
+    border-radius: 10px 3px 40px 7px;
+    /* box-shadow: x-offset y-offset blur-radius spread-radius color; */
+    box-shadow: 4px 5px 8px 2px blue;
+}
+.box:hover {
+    transition: 2s;
+    transform: scale(1.5);
+}
+/* Child Selector: (>) */
+.container > p{
+    color: green;
+}
+/* descendent selector ( )  */
+.container p{
+    color: red;
+}
+
+/* grouping Selector: (,) */
+#card > p, #card > b{
+    text-shadow: 7px 7px 4px black;
+}
+.greeting{
+    color: red;
+    font-size: 45px;
+    font-weight: bolder;
+}
+.greeting span{
+    color: teal;
+    font-size: 60px;
+    font-style: italic;
+}
