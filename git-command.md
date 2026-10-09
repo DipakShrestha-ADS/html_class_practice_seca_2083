@@ -25,7 +25,7 @@
 6. Push the recent commited code to remote
    For First Time:
    ```
-   git push -u origin "[your_current_branch_name]"
+   git push -u ori`gin "[your_current_branch_name]"
    ```
    Later (if one push is already done using **-u**: `upstream`)
    ```
@@ -70,4 +70,3 @@
 
 To Update the remote url:
 - git remote set-url origin [your_github_url_with_pat]
-
